@@ -6,7 +6,7 @@ import "./App.css";
 // A custom hook that builds on useLocation to parse
 // the query string for you.
 
-function App() {
+function App({ params }) {
 
   return (
     <div className="payment-wrapper">
